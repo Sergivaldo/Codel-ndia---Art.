@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+body{
+	font-family:'Inter', sans-serif;
+}
+
+header,main,footer{
+	margin:0 auto;
+	width:70vw;
+}
+
+header{
+	padding:1em;
+	margin-bottom:3em;
+	display:flex;
+	justify-content:space-between;
+	gap:40px;
+}
+
+.logo{
+	font-size:2.3em;
+	font-weight:600;
+}
+.container-search-bar{
+	
+	display:flex;
+	align-items:center;
+	gap:4em;
+}
+.search-bar{
+	padding: 0.2em 0.5em;
+	width: 35vw;
+	display:flex;
+	justify-content:space-between;
+	background-color:#EBEBEB;
+	border-radius:4px
+}
+
+.search-bar > input{
+	padding: 0.7em 1.3em;
+	width:100%;
+	background-color: transparent;
+	outline:none;
+}
+
+.search-bar > button {
+	padding: 0.1em 1.3em;
+	background-color:transparent;
+	cursor:pointer;
+}
+
+.search-bar > button > img{
+	width:1.2em;
+	background-color:transparent;
+}
+
+ .btt{
+	width:170px;
+	padding:0.7em 1.3em;
+	color:#FFF;
+	font-weight:600;
+	font-size:0.9em;
+	text-transform:uppercase;
+
+	background-color:#3772FF;
+	border-radius:4px;
+	cursor:pointer;
+	transition: filter 0.2s ease-in;
+}
+
+.btt:hover{
+	filter:brightness(0.9);
+}
+main > section:nth-child(1){
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+main > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+	width:40vw;
+}
+
+main > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2{
+	font-size:2.5em;
+}
+
+main > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p{
+	margin-top:1em;
+	margin-bottom:1em;
+	font-size:1.2em;
+	color:#737373;
+}
+
+main > section:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+	margin-top:3em;
+	width:40vw;
+	display:flex;
+	gap:3em;
+}
+
+.img-direita > img{
+	width:360px;
+	height:400px;
+}
+
+main > section:nth-child(2){
+	margin-top:3em;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+main > section:nth-child(2) > div:nth-child(1){
+	display:flex;
+	align-items:center;
+}
+
+main > section:nth-child(2) > div:nth-child(1) > img{
+	width:150px;
+	transition: filter 0.2s ease-in;
+}
+
+main > section:nth-child(2) > div:nth-child(1) > img:hover{
+	filter:brightness(0.7);
+}
+
+
+main > section:nth-child(2) > div:nth-child(1) > img:nth-child(2){
+	margin-left:40px;
+	margin-right:40px;
+}
+
+main > section:nth-child(2) > div:nth-child(2){
+	width:360px;
+	display:flex;
+	flex-flow:column wrap;
+	justify-content:center;
+	gap:20px;
+}
+
+main > section:nth-child(2) > div:nth-child(2) > h3{
+	font-weight:500;
+	font-size:2em;
+}
+
+main > section:nth-child(3){
+	margin-top:3em;
+}
+main > section:nth-child(3) > div{
+	margin-top:1.5em;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+main > section:nth-child(3) > div > div{
+	padding:30px;
+	width:270px;
+	height:310px;
+
+	color:#FFF;
+	background-position:center top;
+	border-radius:4px;
+}
+
+main > section:nth-child(3) > div > div:nth-child(1){
+	background-image:url("/imgs/artista_1.png");
+	
+}
+
+main > section:nth-child(3) > div > div:nth-child(2){
+	margin-left:20px;
+	margin-right:20px;
+	background-image:url("/imgs/artista_2.png");
+
+}
+
+main > section:nth-child(3) > div > div:nth-child(3){
+	background-image:url("/imgs/artista_3.png");
+
+}
+
+footer{
+	margin-top:40px;
+	margin-bottom:40px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.menu{
+	display:flex;
+	justify-content:space-between;
+	gap:40px;
+	
+	list-style: none;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:0.9em;
+}
+
+.menu-item{
+	padding:5px 10px;
+	background-color:transparent;
+	border-radius:4px;
+	cursor:pointer;
+	transition: background-color 0.2s ease-in;
+}
+
+.menu-item:hover{
+	background-color:#121212;
+	color:#FFF;
+}
